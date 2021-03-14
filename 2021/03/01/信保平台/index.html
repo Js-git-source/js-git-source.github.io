@@ -1,0 +1,1488 @@
+<!DOCTYPE html>
+<html>
+<head hexo-theme='https://github.com/volantis-x/hexo-theme-volantis/tree/4.0.0-rc.4'>
+  <meta charset="utf-8">
+  <!-- SEO相关 -->
+  
+    
+  
+  <!-- 渲染优化 -->
+  <meta name="renderer" content="webkit">
+  <meta name="force-rendering" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="HandheldFriendly" content="True" >
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta http-equiv='x-dns-prefetch-control' content='on' />
+
+  <!-- 页面元数据 -->
+  
+  <title>信保平台 - 姜山的博客</title>
+  
+
+  
+
+  <!-- feed -->
+  
+
+  <!-- import meta -->
+  
+
+  <!-- link -->
+  <link rel='dns-prefetch' href='https://cdn.jsdelivr.net'>
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.14/css/all.min.css">
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  <!-- import link -->
+  
+
+  
+  
+    
+<link rel="stylesheet" href="/css/style.css">
+
+  
+  
+  
+  <!-- 脚本懒加载函数 -->
+  <script>
+  function loadScript(src, cb) {
+    var HEAD = document.getElementsByTagName('head')[0] || document.documentElement;
+    var script = document.createElement('script');
+    script.setAttribute('type','text/javascript');
+    if (cb) script.onload = cb;
+    script.setAttribute('src', src);
+    HEAD.appendChild(script);
+  }
+  //https://github.com/filamentgroup/loadCSS
+  !function(c){"use strict";var e=function(e,t,n,r){var o,i=c.document,a=i.createElement("link");if(t)o=t;else{var d=(i.body||i.getElementsByTagName("head")[0]).childNodes;o=d[d.length-1]}var f=i.styleSheets;if(r)for(var l in r)r.hasOwnProperty(l)&&a.setAttribute(l,r[l]);a.rel="stylesheet",a.href=e,a.media="only x",function e(t){if(i.body)return t();setTimeout(function(){e(t)})}(function(){o.parentNode.insertBefore(a,t?o:o.nextSibling)});var s=function(e){for(var t=a.href,n=f.length;n--;)if(f[n].href===t)return e();setTimeout(function(){s(e)})};function u(){a.addEventListener&&a.removeEventListener("load",u),a.media=n||"all"}return a.addEventListener&&a.addEventListener("load",u),(a.onloadcssdefined=s)(u),a};"undefined"!=typeof exports?exports.loadCSS=e:c.loadCSS=e}("undefined"!=typeof global?global:this);
+  </script>
+  <script id="loadcss"></script>
+</head>
+
+<body>
+  <header class="l_header auto shadow blur " style='opacity: 0' >
+  <div class='container'>
+  <div class='wrapper'>
+    <div class='nav-sub'>
+      <p class="title"></p>
+      <ul class='switcher nav-list-h m-phone' id="pjax-header-nav-list">
+        <li><a class="s-comment fas fa-comments fa-fw" target="_self" href='javascript:void(0)'></a></li>
+        
+          <li><a class="s-toc fas fa-list fa-fw" target="_self" href='javascript:void(0)'></a></li>
+        
+      </ul>
+    </div>
+		<div class="nav-main">
+      
+        
+        <a class="title flat-box" target="_self" href='/'>
+          
+            <img no-lazy class='logo' src='https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-NavBar@3x.png'/>
+          
+          
+          
+        </a>
+      
+
+			<div class='menu navigation'>
+				<ul class='nav-list-h m-pc'>
+          
+          
+          
+            
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/
+                  
+                  
+                  
+                    id="home"
+                  >
+                  <i class='fas fa-rss fa-fw'></i>博客
+                </a>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/categories/
+                  
+                  
+                  
+                    id="categories"
+                  >
+                  <i class='fas fa-folder-open fa-fw'></i>分类
+                </a>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/tags/
+                  
+                  
+                  
+                    id="tags"
+                  >
+                  <i class='fas fa-tags fa-fw'></i>标签
+                </a>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/archives/
+                  
+                  
+                  
+                    id="archives"
+                  >
+                  <i class='fas fa-archive fa-fw'></i>归档
+                </a>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/friends/
+                  
+                  
+                  
+                    id="friends"
+                  >
+                  <i class='fas fa-link fa-fw'></i>友链
+                </a>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/about/
+                  
+                  
+                  
+                    id="about"
+                  >
+                  <i class='fas fa-info-circle fa-fw'></i>关于
+                </a>
+                
+              </li>
+            
+          
+          
+				</ul>
+			</div>
+
+      <div class="m_search">
+        <form name="searchform" class="form u-search-form">
+          <i class="icon fas fa-search fa-fw"></i>
+          <input type="text" class="input u-search-input" placeholder="Search..." />
+        </form>
+      </div>
+
+			<ul class='switcher nav-list-h m-phone'>
+				
+					<li><a class="s-search fas fa-search fa-fw" target="_self" href='javascript:void(0)'></a></li>
+				
+				<li>
+          <a class="s-menu fas fa-bars fa-fw" target="_self" href='javascript:void(0)'></a>
+          <ul class="menu-phone list-v navigation white-box">
+            
+              
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/
+                  
+                  
+                  
+                    id="home"
+                  >
+                  <i class='fas fa-rss fa-fw'></i>博客
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/categories/
+                  
+                  
+                  
+                    id="categories"
+                  >
+                  <i class='fas fa-folder-open fa-fw'></i>分类
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/tags/
+                  
+                  
+                  
+                    id="tags"
+                  >
+                  <i class='fas fa-tags fa-fw'></i>标签
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/archives/
+                  
+                  
+                  
+                    id="archives"
+                  >
+                  <i class='fas fa-archive fa-fw'></i>归档
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/friends/
+                  
+                  
+                  
+                    id="friends"
+                  >
+                  <i class='fas fa-link fa-fw'></i>友链
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/about/
+                  
+                  
+                  
+                    id="about"
+                  >
+                  <i class='fas fa-info-circle fa-fw'></i>关于
+                </a>
+                
+              </li>
+            
+          
+            
+          </ul>
+        </li>
+			</ul>
+		</div>
+	</div>
+  </div>
+</header>
+
+  <div class="l_body">
+    <div class="l_cover">
+  
+    
+    
+        <div class='cover-wrapper post dock' style="display: none;">
+          
+            <div class='cover-bg lazyload placeholder' data-bg="https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/033.jpg"></div>
+          
+          <div class='cover-body'>
+  <div class='top'>
+    
+    
+      <p class="title">Volantis</p>
+    
+    
+  </div>
+  <div class='bottom'>
+    <div class='menu navigation'>
+      <div class='list-h'>
+        
+          
+            <a href="/v4/getting-started/"
+              
+              
+              id="v4getting-started">
+              <img src='https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f5c3.svg'><p>文档</p>
+            </a>
+          
+            <a href="/faqs/"
+              
+              
+              id="faqs">
+              <img src='https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f516.svg'><p>帮助</p>
+            </a>
+          
+            <a href="/examples/"
+              
+              
+              id="examples">
+              <img src='https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f396.svg'><p>示例</p>
+            </a>
+          
+            <a href="/contributors/"
+              
+              
+              id="contributors">
+              <img src='https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f389.svg'><p>社区</p>
+            </a>
+          
+            <a href="/archives/"
+              
+              
+              id="archives">
+              <img src='https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4f0.svg'><p>博客</p>
+            </a>
+          
+            <a target="_blank" rel="noopener" href="https://github.com/volantis-x/hexo-theme-volantis/"
+              
+              
+              id="https:githubcomvolantis-xhexo-theme-volantis">
+              <img src='https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f9ec.svg'><p>源码</p>
+            </a>
+          
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+          <div class="scroll-down" style="display: none;"><i class="fa fa-chevron-down scroll-down-effects"></i></div>
+        </div>
+    
+  
+  </div>
+  
+    <div class='safearea'>
+      <div class='body-wrapper' id="pjax-container">
+        
+          <!--此文件用来存放一些不方便取值的变量--> 
+<!--思路大概是将值藏到重加载的区域内--> 
+ 
+ 
+ 
+<div id="pjax-data" style="display: none"> 
+  <div id="pjax-ispage">true</div> 
+  <div id="pjax-pageTitle">信保平台</div> 
+  <div id="pjax-enable-cover">true</div> 
+  <div id="pjax-comment-path"></div> 
+  <div id="pjax-comment-placeholder"></div> 
+</div> 
+ 
+ 
+<script> 
+  // 处理封面 此时 jquery 还没加载 
+  if ("none" == "none") { // 移除封面 
+    document.getElementsByClassName('cover-wrapper')[0].style.display = "none"; 
+    document.getElementsByClassName('l_header', 'cover-wrapper')[0].classList.add("show"); 
+  } else { 
+    if ("none" == "half") { // 半屏 
+      document.getElementsByClassName('cover-wrapper')[0].setAttribute('id', 'half'); 
+      document.getElementsByClassName('scroll-down')[0].style.display = "none"; 
+    } else if ("none" == "full") { // 全屏 
+      document.getElementsByClassName('cover-wrapper')[0].setAttribute('id', 'full'); 
+      document.getElementsByClassName('scroll-down')[0].style.display = ""; 
+    } 
+    document.getElementsByClassName('cover-wrapper')[0].style.display = ""; 
+    document.getElementsByClassName('l_header', 'cover-wrapper')[0].classList.remove("show"); 
+  } 
+</script> 
+ 
+
+        
+        
+
+<div class='l_main'>
+  <article class="article post white-box reveal md shadow article-type-post" id="post" itemscope itemprop="blogPost">
+  
+
+
+  
+  <div class="article-meta" id="top">
+    
+    
+    
+      <h1 class="title">
+        信保平台
+      </h1>
+      <div class='new-meta-box'>
+        
+          
+            
+<div class='new-meta-item author'>
+  <a class='author' href="/" rel="nofollow">
+    <img no-lazy src="">
+    <p>姜山</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+
+          
+        
+          
+            <div class="new-meta-item date">
+  <a class='notlink'>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
+    <p>发布于：2021年3月1日</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+  <div class="new-meta-item browse leancloud">
+    <a class='notlink'>
+      
+      <div id="lc-pv" data-title="信保平台" data-path="/2021/03/01/%E4%BF%A1%E4%BF%9D%E5%B9%B3%E5%8F%B0/">
+        <i class="fas fa-eye fa-fw" aria-hidden="true"></i>
+        <span id='number'><i class="fas fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span>
+        次浏览
+      </div>
+    </a>
+  </div>
+
+
+          
+        
+      </div>
+    
+  </div>
+
+
+  
+  <h2 id="大地信保科技平台-车房系统"><a href="#大地信保科技平台-车房系统" class="headerlink" title="大地信保科技平台(车房系统)"></a>大地信保科技平台(车房系统)</h2><h3 id="系统简介"><a href="#系统简介" class="headerlink" title="系统简介"></a>系统简介</h3><ul>
+<li>系统目的：实现车贷房贷业务中的全流程电子化，提高保险的进件审批效率，协调对接车贷房贷中资产资金配置。</li>
+<li>与大地内部其他风控系统出单系统等配合，实现保险出单的风控安全以及业务的一致性<h3 id="系统架构"><a href="#系统架构" class="headerlink" title="系统架构"></a>系统架构</h3><img src="/images/WechatIMG149.jpeg" class="lazyload" data-srcset="/images/WechatIMG149.jpeg" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" alt="系统架构"></li>
+</ul>
+<h3 id="相关系统"><a href="#相关系统" class="headerlink" title="相关系统"></a>相关系统</h3><ul>
+<li>消金平台：负责保险项目的管理，车房系统中的<code>项目配置管理</code>模块中的信息都是来自消金系统。不同项目的相关配置如费率、展业区域、贷款期限等都在消金平台。如遇到一些项目配置错误问题，需联系大地相关老师，目前消金项目配置：<code>荆益洲</code>老师。</li>
+<li>风控平台：负责对车房系统提交的主贷人信息进行风控，如风控信息没有响应，需联系风控老师。目前联系 <code>陈凯越</code>进行沟通。</li>
+<li>核心系统: 保单、支付相关。负责保单的生成、支付短信链接结果。支付问题，目前联系 <code>占伟</code>进行沟通。</li>
+<li>房估价系统(第三方服务)：进行房屋价格评定</li>
+<li>Indigo: 承保意向书生成</li>
+</ul>
+<h3 id="服务介绍"><a href="#服务介绍" class="headerlink" title="服务介绍"></a>服务介绍</h3><p><img src="/images/WechatIMG144.png" class="lazyload" data-srcset="/images/WechatIMG144.png" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" alt="服务"></p>
+<ul>
+<li>api-service: 外部接口调用，设计第三方的接口调用一般放在此模块下，在<code>sys-service</code>中使用<code>Feign</code>调用。</li>
+<li>auth-serivice: 单点登录跳转。前端页面登录时，跳转到大地保险的单点登录页面</li>
+<li>common: 常量以及通用工具类</li>
+<li>register-center:服务注册中心</li>
+<li>sys-gateway:网关服务，鉴权服务分发</li>
+<li>sys-service:系统服务，系统内的业务逻辑。</li>
+</ul>
+<h3 id="sys-service：系统服务"><a href="#sys-service：系统服务" class="headerlink" title="sys-service：系统服务"></a>sys-service：系统服务</h3><p>详细介绍一下 sys-service：<br><img src="/images/WechatIMG145.png" class="lazyload" data-srcset="/images/WechatIMG145.png" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" alt="业务服务"></p>
+<ul>
+<li>src/main/java/com/che300/common: 全局的通用工具类和常量</li>
+<li>src/main/java/com/che300/config：配置类，注解以及一些拦截器切面的配置文件</li>
+<li>src/main/java/com/che300/module：业务流程相关的所有代码<br>  -com/che300/module/business：车房系统内的业务流程<br>  -com/che300/module/ccic：与大地内部系统交互数据的包，主要是Hr系统，<br>  保单系统，核心保单系统<br>  -com/che300/module/system：系统的引擎流/权限管理/用户信息管理/动态字典的实现等都在这个包下</li>
+</ul>
+<h3 id="技术实现"><a href="#技术实现" class="headerlink" title="技术实现"></a>技术实现</h3><h4 id="引擎流Activity"><a href="#引擎流Activity" class="headerlink" title="引擎流Activity"></a>引擎流Activity</h4><ul>
+<li>工作流（Workflow），就是业务过程的部分或整体在计算机应用环境下的自动化，它主要解决的是“使在多个参与者之间按照某种预定义的规则传递文档、信息或任务的过程自动进行，从而实现某个预期的业务目标，或者促使此目标的实现” 。</li>
+<li>系统中的<code>审批流程管理</code>模块就是流程图的配置管理<br>注意点：<ul>
+<li>网关条件: 3 通过，4拒绝，2退回。系统可支持多种情况处理，可自行增加网关的条件</li>
+<li>人工节点：需要人工在页面上操作的节点，例如: 审核节点，提交节点</li>
+<li>自动节点： 依赖于上一步的人工节点操作完之后的结果，自动执行的一些代码，使用反射的原理。数据库中有专门配置<code>自动节点</code>的表</li>
+</ul>
+</li>
+</ul>
+<p>相关数据库表：<br>  开发过程不太需要去关注<code>Activity</code>自带的表。主要是节点的配置表<code>wf_node_belong</code><br>  重点字段：</p>
+<ul>
+<li><code>name</code>: 节点名称</li>
+<li><code>attached_node</code>: 关联节点</li>
+<li><code>auto_node</code>:节点属性。1：自动节点 2：人工节点</li>
+<li><code>execution_path</code>: 自动节点需要执行的方法。方法的全路径，例如： <code>com.che300.module.business.autoNodeService.InsuranceCoreAutoService#policyApply</code>,使用<code>#</code>分隔类路径与方法名</li>
+<li><code>rank</code>:前端页面显示时的顺序。<br>节点执行相关信息表(分析订单流转时用到):</li>
+<li><code>wf_node_status</code>: 节点状态表，id是订单表biz_order的自增id,查看流程中每个节点的状态</li>
+<li><code>wf_task_list</code>: 节点流程表，id是订单表biz_order的自增id，查看订单的整个执行流程以及状态。</li>
+</ul>
+<h4 id="动态字典"><a href="#动态字典" class="headerlink" title="动态字典"></a>动态字典</h4><ul>
+<li>动态字典：根据业务划分，设置字段值，针对于每一个项目，勾选业务所需要的字段，进行进件。</li>
+<li>优点：减少冗余字段，不需要针对于每一个项目设定，基础字段以及一些项目的相同字段可以复用</li>
+<li>缺点：<ul>
+<li>目前系统内，没有做到合理复用已存在的字段，重复字段很多。</li>
+<li>字段的存储 单表单字段存储，单表数量大，取值不方便，建议采用<code>mongodb</code></li>
+</ul>
+</li>
+</ul>
+<h5 id="动态字典的数据库设计"><a href="#动态字典的数据库设计" class="headerlink" title="动态字典的数据库设计"></a>动态字典的数据库设计</h5><ul>
+<li>涉及表： <ul>
+<li><code>sys_biz_field</code>: 字段表，系统内部所有动态字段都在这张表<br>重点字段:<ul>
+<li><code>super_class</code>: 订单的id。对应<code>biz_order</code>表中的自增id</li>
+<li><code>form_title</code>: 字段名(中文)。</li>
+<li><code>form_name</code>: 字段名(英文)</li>
+<li><code>web_app_type</code>: web端字段的属性(Input框还是Select框等等)</li>
+<li><code>web_config</code>: 前端组件的显示属性，可以设置组件的宽度，是否显示文本。<ul>
+<li>重点：<code>web_config</code>中有个属性<code>dictType</code>，针对于<code>Select</code>下拉框组件，标识要展示的下拉框的选项。</li>
+<li><code>dictType</code>的值存储在 <code>sys_dict</code>表中。<code>code</code>字段对应<code>dictType</code>的值</li>
+</ul>
+</li>
+<li><code>web_validate_rule</code>: 字段的校验规则，可以设置是否为空，是否可编辑等等</li>
+<li><code>web_link_rule</code>: 当字段之前有关联关系是需要设置此属性。<br>示例： <figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">[</span><br><span class="line">  &#123;</span><br><span class="line">    field:&quot;audited&quot;,// 关联字段名，sys_biz中的字段名</span><br><span class="line">    value:&quot;&#123;&#123;fieldValue==1&#125;&#125;&quot;, // 触发条件 当audited=1时触发规则</span><br><span class="line">    rule:&#123;&quot;showField&quot;:true,&quot;canEdit&quot;: true&#125; // 规则 showField:显示字段 canEdit: 可编辑</span><br><span class="line">  &#125;</span><br><span class="line">]</span><br></pre></td></tr></table></figure></li>
+<li><code>sys_field_label</code>:配置表，分类。按照一定的业务属性设置大分类。例如:个人信息，车辆信息，企业信息等等</li>
+<li><code>sys_page_block</code>: 页面配置表，根据业务中属性分类<br>重点字段：<ul>
+<li><code>page_code</code>: 分类模块名(中文)</li>
+<li><code>info_block_name</code>:分类模块名(英文)</li>
+</ul>
+</li>
+<li><code>sys_page_bind_field</code>: 将动态字段绑定到对应的分类上。<br>重点字段：<ul>
+<li><code>business_id</code>: 对应订单表<code>biz_order</code>的订单自增id</li>
+<li><code>field_id</code>: <code>sys_biz_field</code>字典表中自增id</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h6 id="业务示例"><a href="#业务示例" class="headerlink" title="业务示例"></a>业务示例</h6><ul>
+<li>如何在现有的模块上添加新的字段<ul>
+<li>1：在<code>sys_page_block</code>中搜索你要找的模块的<code>info_block_name</code>(模块名)，表中的<code>block_id</code>是模块id。</li>
+<li>2：在<code>sys_biz_field</code>表中添加所需字段并配置好规则，<code>super_class</code>对应<code>sys_page_block</code>中的<code>block_id</code></li>
+</ul>
+</li>
+<li>如何新增新的动态字典分类模块<ul>
+<li>1：在<code>sys_page_block</code>新增模块，设置好<code>page_code</code>(模块名),<code>info_block_name</code>(中文模块名)</li>
+<li>2：在<code>sys_page_block</code>中搜索你要找的模块的<code>info_block_name</code>(模块名)，表中的<code>block_id</code>是模块id。</li>
+<li>3：在<code>sys_biz_field</code>表中添加所需字段并配置好规则，<code>super_class</code>对应<code>sys_page_block</code>中的<code>block_id</code></li>
+</ul>
+</li>
+</ul>
+<h4 id="开发流程"><a href="#开发流程" class="headerlink" title="开发流程"></a>开发流程</h4><p>开发流程：</p>
+<ul>
+<li><ol>
+<li>产品经理整理好本次版本需要实现的需求</li>
+</ol>
+</li>
+<li><ol start="2">
+<li>产品与后端前端测试沟通好开发测试所需时间，一般在大时间范围内，开发可自行酌定时间</li>
+</ol>
+</li>
+<li><ol start="3">
+<li>后端代码完成后(可自测一部分)，与前端联调。</li>
+</ol>
+</li>
+<li><ol start="4">
+<li>前后端联调测试通过后，交由测试在sit环境测试（测试出bug，前后端及时修复）</li>
+</ol>
+</li>
+<li><ol start="5">
+<li>sit测试完成后，交由业务老师进行uat测试 （测试出bug，前后端及时修复）</li>
+</ol>
+</li>
+<li><ol start="6">
+<li>准备上线</li>
+</ol>
+</li>
+</ul>
+<h2 id="外部资金的对接部分-王浩离职交接"><a href="#外部资金的对接部分-王浩离职交接" class="headerlink" title="外部资金的对接部分(王浩离职交接)"></a>外部资金的对接部分(王浩离职交接)</h2><h3 id="资金对接的流程"><a href="#资金对接的流程" class="headerlink" title="资金对接的流程"></a>资金对接的流程</h3><ul>
+<li><ol>
+<li>产品经理拿到大地提供需求文档接口文档，产品经理整理出需要开发的功能点。</li>
+</ol>
+</li>
+<li><ol start="2">
+<li>产品经理与开发测试讨论当前版本的功能点，并规定好后端前端测试的时间</li>
+</ol>
+</li>
+<li><ol start="3">
+<li>后端针对功能开发后端接口，与科蓝连接平台以及资金方进行联调。(资金对接一般不涉及前端开发，某些特殊情况下需要前端开发)</li>
+</ol>
+</li>
+<li><ol start="4">
+<li>联调完毕后交于测试进行sit/uat环境测试验收</li>
+</ol>
+</li>
+<li><ol start="5">
+<li>准备上线</li>
+</ol>
+</li>
+</ul>
+<h3 id="资金对接中可能发生的问题以及解决方案"><a href="#资金对接中可能发生的问题以及解决方案" class="headerlink" title="资金对接中可能发生的问题以及解决方案"></a>资金对接中可能发生的问题以及解决方案</h3><ul>
+<li><ol>
+<li>资金方的业务流程与车房系统内部的流程有冲突，资金方无法修改，只能车房系统内部适配做兼容</li>
+</ol>
+</li>
+<li><ol start="2">
+<li>不同的资金方可能会有特殊需求，需要特殊处理</li>
+</ol>
+</li>
+<li><ol start="3">
+<li>校验规则的特殊性<h3 id="git分支开发"><a href="#git分支开发" class="headerlink" title="git分支开发"></a>git分支开发</h3>资金资产与车房系统开发分支独立，新资金接入时，新建分支名规则： <code>dadi-资金名</code>。开发周期尽量和车房系统的测试错开，防止测试环境冲突。<h3 id="资金代码"><a href="#资金代码" class="headerlink" title="资金代码"></a>资金代码</h3></li>
+</ol>
+</li>
+</ul>
+<h4 id="资金一般包含的接口"><a href="#资金一般包含的接口" class="headerlink" title="资金一般包含的接口"></a>资金一般包含的接口</h4><ul>
+<li><ol>
+<li>预审提交（提交一些基本信息做预审）</li>
+</ol>
+</li>
+<li><ol start="2">
+<li>授信提交（提交贷款人的相关信息到银行）</li>
+</ol>
+</li>
+<li><ol start="3">
+<li>授信结果的回调(银行返回对贷款人授信的信息)</li>
+</ol>
+</li>
+<li><ol start="4">
+<li>上传保单信息(车房系统内出保单后需将保单信息发送给银行)</li>
+</ol>
+</li>
+<li><ol start="5">
+<li>用款申请(异步，发起用款申请(可自动发起也可人工发起视业务而定))</li>
+</ol>
+</li>
+<li><ol start="6">
+<li>用款申请结果回调(确定是否放款成功已到客户卡中)</li>
+</ol>
+</li>
+</ul>
+<h4 id="后端开发具体流程"><a href="#后端开发具体流程" class="headerlink" title="后端开发具体流程"></a>后端开发具体流程</h4><ul>
+<li>产品经理画出资金的业务流程图，在车房系统<code>项目流程设计</code>模块中，开发需要与产品一同梳理。</li>
+<li>后端需要产品经理整理出，当前需求接口中，哪些字段是当前车房系统的没有的字段，需要按照上文所述的<code>动态字典</code>的添加新的字段。<br>目前的方案是:为了方便字段的选择防止出错，新的的资金方的新的字段都是统一新建一个模块统一存放所必需的字段。<br>例如：<code>sys_page_block</code>表中的 <code>光大金租资金专属字段</code>，<code>邮储上分资金专属字段</code>。</li>
+<li>后端需要产品经理整理出，当前需求接口中，需要新增的<code>字典值</code>，新增的的字典值需要添加在 <code>sys_dict</code>表中</li>
+<li>后端需要与产品经理沟通，当前资金方需不需要新增节点(自动、手动)。视具体需求而定</li>
+</ul>
+<h4 id="具体开发过程"><a href="#具体开发过程" class="headerlink" title="具体开发过程"></a>具体开发过程</h4><p>资金代码做过重构，此处讲一下对接一个新的资金要做的事情:<br>资金的大部分代码都在：<code>com/che300/module/business/capital</code>包下。<br>具体流程：</p>
+<ul>
+<li><ol>
+<li>首先在<code>com/che300/module/business/capital/factory/CapitalFactory.java</code>方法中添加新的资金方,此处使用的工厂设计模式。<br>添加对应<code>资金方编码</code>,以及对应资金方业务的<code>具体实现类</code>。注意: <code>bean</code>的名字是你所建的实现类的方法的 <code>首字母小写</code>的全称，不然获取不到这个bean.<br>工厂类在代码中的使用：<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">  <span class="meta">@Autowired</span></span><br><span class="line">  <span class="keyword">private</span> CapitalFactory capitalFactory;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * 功能描述: 资金 用款申请</span></span><br><span class="line"><span class="comment"> *</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment"> * <span class="doctag">@Author</span> zhx</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@Date</span> 16:29 2020/5/25</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@Param</span></span></span><br><span class="line"><span class="comment"> * <span class="doctag">@Version</span> 1.0</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="meta">@Compensation(node = AutoNodeDictionary.HN_LOAN_APPLY)</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">loanApply</span><span class="params">(String orderNo, CurrentUser currentUser)</span> <span class="keyword">throws</span> Exception </span>&#123;</span><br><span class="line">  <span class="comment">// 工厂类使用</span></span><br><span class="line">    CapitalCommonInterface capitalCommonInterface = capitalFactory.getService(orderNo);</span><br><span class="line">    ApiResult result = capitalCommonInterface.loanApply(orderNo);</span><br><span class="line">    logger.info(<span class="string">&quot;用款申请结果[&#123;&#125;]&quot;</span>, result == <span class="keyword">null</span> ? <span class="string">&quot;&quot;</span> : result);</span><br><span class="line">    <span class="keyword">boolean</span> execFailed = result == <span class="keyword">null</span> || !Objects.equals(Constant.ResultCodel.SUCCESS, result.getCode());</span><br><span class="line">    <span class="keyword">int</span> status = execFailed ? <span class="number">4</span> : <span class="number">3</span>;</span><br><span class="line">    String message = execFailed ? <span class="string">&quot;用款申请失败&quot;</span> : <span class="string">&quot;用款申请成功&quot;</span>;</span><br><span class="line">    completeAutoNode(orderNo, execFailed, status, message, AutoNodeDictionary.HN_LOAN_APPLY);</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+工厂类：<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">* <span class="doctag">@program</span>: delta</span></span><br><span class="line"><span class="comment">* <span class="doctag">@description</span>: 资金接口工厂类</span></span><br><span class="line"><span class="comment">* <span class="doctag">@author</span>: wanghao</span></span><br><span class="line"><span class="comment">* <span class="doctag">@create</span>: 2020-11-20 11:11</span></span><br><span class="line"><span class="comment">**/</span></span><br><span class="line"><span class="meta">@Slf4j</span></span><br><span class="line"><span class="meta">@Component</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">CapitalFactory</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 光大金租 生产</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">final</span> String GDJZ_CODE = <span class="string">&quot;ZJ0000102&quot;</span>;</span><br><span class="line">    <span class="comment">// 邮储编码</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">final</span> String YC_CODE = <span class="string">&quot;ZJ0000076&quot;</span>;</span><br><span class="line">    <span class="comment">// 华能编码</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">final</span> String HN_CODE = <span class="string">&quot;ZJ0000209&quot;</span>;</span><br><span class="line">    <span class="comment">// 恒丰编码</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">final</span> String HF_CODE = <span class="string">&quot;ZJ0000095&quot;</span>;</span><br><span class="line">    <span class="comment">// 广大普惠编码</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">final</span> String GDPH_CODE = <span class="string">&quot;ZJ0000029&quot;</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 成功标识码</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">final</span> String SUCCESS = <span class="string">&quot;000000&quot;</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">final</span> String MSG = <span class="string">&quot;订单号[&#123;&#125;],资金方编号[&#123;&#125;]&quot;</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 产品类型</span></span><br><span class="line">    <span class="comment">// 房抵保</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">final</span> String BFD = <span class="string">&quot;BFD&quot;</span>;</span><br><span class="line">    <span class="comment">// 车抵保</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">final</span> String BCD = <span class="string">&quot;BCD&quot;</span>;</span><br><span class="line">    <span class="comment">// 车租保</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">final</span> String BCZ = <span class="string">&quot;BCZ&quot;</span>;</span><br><span class="line">    <span class="comment">// 消金保</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">final</span> String BXJ = <span class="string">&quot;BXJ&quot;</span>;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Autowired</span></span><br><span class="line">    <span class="keyword">private</span> KelanMapper kelanMapper;</span><br><span class="line">    <span class="meta">@Autowired</span></span><br><span class="line">    <span class="keyword">private</span> IProjectService iProjectService;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> CapitalCommonInterface <span class="title">getService</span><span class="params">(String orderNo)</span> </span>&#123;</span><br><span class="line">        OrderInfo order = kelanMapper.getOrderId(orderNo);</span><br><span class="line">        String parentCode = <span class="string">&quot;&quot;</span>;</span><br><span class="line">        <span class="keyword">if</span> (StringUtils.isEmpty(order.getCapitalSideParentCode())) &#123;</span><br><span class="line">            String businessId = order.getProjectItemCode();</span><br><span class="line">            <span class="comment">// 获取当前项目资金方信息</span></span><br><span class="line">            List&lt;CapitalSideInfo&gt; capitalSideInfos = iProjectService.searchCapitalSideInfo(businessId);</span><br><span class="line">            <span class="comment">// 获取父级资金方编码 针对于一个项目只配置一个资金方</span></span><br><span class="line">            parentCode = capitalSideInfos.get(<span class="number">0</span>).getPid();</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            parentCode = order.getCapitalSideParentCode();</span><br><span class="line">        &#125;</span><br><span class="line">        log.info(MSG, orderNo, parentCode);</span><br><span class="line">        <span class="keyword">switch</span> (parentCode) &#123;</span><br><span class="line">            <span class="keyword">case</span> GDPH_CODE:</span><br><span class="line">                <span class="keyword">return</span> (CapitalCommonInterface) ApplicationContextUtil.getBean(<span class="string">&quot;hfCapitalBusinessServiceImpl&quot;</span>);</span><br><span class="line">            <span class="keyword">case</span> HF_CODE:</span><br><span class="line">                <span class="keyword">return</span> (CapitalCommonInterface) ApplicationContextUtil.getBean(<span class="string">&quot;hfCapitalBusinessServiceImpl&quot;</span>);</span><br><span class="line">            <span class="keyword">case</span> HN_CODE:</span><br><span class="line">                <span class="keyword">return</span> (CapitalCommonInterface) ApplicationContextUtil.getBean(<span class="string">&quot;hnCapitalBusinessServiceImpl&quot;</span>);</span><br><span class="line">            <span class="keyword">case</span> YC_CODE:</span><br><span class="line">                <span class="keyword">return</span> (CapitalCommonInterface) ApplicationContextUtil.getBean(<span class="string">&quot;ycCapitalBusinessServiceImpl&quot;</span>);</span><br><span class="line">            <span class="keyword">case</span> GDJZ_CODE:</span><br><span class="line">                <span class="keyword">return</span> (CapitalCommonInterface) ApplicationContextUtil.getBean(<span class="string">&quot;gdjzCapitalBusinessServiceImpl&quot;</span>);</span><br><span class="line">            <span class="keyword">default</span>:</span><br><span class="line">                log.error(<span class="string">&quot;订单号[&#123;&#125;],系统内无此资金方配置信息&quot;</span>, orderNo);</span><br><span class="line">                <span class="keyword">return</span> <span class="keyword">null</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">  </span><br></pre></td></tr></table></figure></li>
+</ol>
+</li>
+<li><ol start="2">
+<li>公共接口已经整理出来，在<code>com/che300/module/business/capital/service/CapitalCommonInterface.java</code>。包含了资金的基本流程接口，后期如果有新的接口可在其中添加。<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.che300.<span class="keyword">module</span>.business.capital.service;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> com.che300.common.model.ApiResult;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.Map;</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">CapitalCallbackService</span> </span>&#123;</span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">    * 功能描述: 预审回调处理</span></span><br><span class="line"><span class="comment">    */</span></span><br><span class="line">    <span class="function">ApiResult <span class="title">handlePretrialResult</span><span class="params">(Map&lt;String, Object&gt; map)</span></span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">    * 功能描述: 授信回调处理</span></span><br><span class="line"><span class="comment">    */</span></span><br><span class="line">    <span class="function">ApiResult <span class="title">handleCreditResult</span><span class="params">(Map&lt;String, Object&gt; map)</span></span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">    * 功能描述: 签约结果处理</span></span><br><span class="line"><span class="comment">    */</span></span><br><span class="line">    <span class="function">ApiResult <span class="title">handleSignResult</span><span class="params">(Map&lt;String, Object&gt; map)</span></span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">    * 功能描述:用款申请结果处理</span></span><br><span class="line"><span class="comment">    */</span></span><br><span class="line">    <span class="function">ApiResult <span class="title">handleLoanResult</span><span class="params">(Map&lt;String, Object&gt; map)</span></span>;</span><br><span class="line">&#125;  </span><br><span class="line"></span><br></pre></td></tr></table></figure></li>
+</ol>
+<ul>
+<li>3.编写对应资金接口的实现方法，在<code>com/che300/module/business/capital/service/impl</code>包下。<br>列举华能资金的接口实现类：<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br><span class="line">169</span><br><span class="line">170</span><br><span class="line">171</span><br><span class="line">172</span><br><span class="line">173</span><br><span class="line">174</span><br><span class="line">175</span><br><span class="line">176</span><br><span class="line">177</span><br><span class="line">178</span><br></pre></td><td class="code"><pre><span class="line">  </span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">* <span class="doctag">@program</span>: delta</span></span><br><span class="line"><span class="comment">* <span class="doctag">@description</span>:</span></span><br><span class="line"><span class="comment">* <span class="doctag">@author</span>: wanghao</span></span><br><span class="line"><span class="comment">* <span class="doctag">@create</span>: 2020-09-21 17:24</span></span><br><span class="line"><span class="comment">**/</span></span><br><span class="line"><span class="meta">@Service</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">HnCapitalBusinessServiceImpl</span> <span class="keyword">implements</span> <span class="title">CapitalCommonInterface</span>, <span class="title">RuleService</span> </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> Logger logger = LoggerFactory.getLogger(HnCapitalBusinessServiceImpl.class);</span><br><span class="line">    <span class="meta">@Autowired</span></span><br><span class="line">    <span class="keyword">private</span> KelanMapper kelanMapper;</span><br><span class="line">    <span class="meta">@Autowired</span></span><br><span class="line">    IPreLoanService preLoanService;</span><br><span class="line">    <span class="meta">@Autowired</span></span><br><span class="line">    <span class="keyword">private</span> IOrderService orderService;</span><br><span class="line">    <span class="meta">@Autowired</span></span><br><span class="line">    <span class="keyword">private</span> CompensateService kelanService;</span><br><span class="line">    <span class="meta">@Autowired</span></span><br><span class="line">    <span class="keyword">private</span> IProjectService iProjectService;</span><br><span class="line">    <span class="meta">@Autowired</span></span><br><span class="line">    <span class="keyword">private</span> IFileService iFileService;</span><br><span class="line">    <span class="meta">@Autowired</span></span><br><span class="line">    <span class="keyword">private</span> HnCapitalService hnCapitalService;</span><br><span class="line">    <span class="meta">@Autowired</span></span><br><span class="line">    <span class="keyword">private</span> BizCreditHistoryMapper bizCreditHistoryMapper;</span><br><span class="line">    <span class="meta">@Autowired</span></span><br><span class="line">    <span class="keyword">private</span> ConsumerFinanceService consumerFinanceService;</span><br><span class="line">    <span class="meta">@Autowired</span></span><br><span class="line">    <span class="keyword">private</span> IProjectService projectService;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Value(&quot;$&#123;capital.url&#125;&quot;)</span></span><br><span class="line">    <span class="keyword">private</span> String URL;</span><br><span class="line">    <span class="meta">@Value(&quot;$&#123;capital.insititutionCode&#125;&quot;)</span></span><br><span class="line">    <span class="keyword">private</span> String INSTITUTION_CODE;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">    * 功能描述: 华能资金业务申请</span></span><br><span class="line"><span class="comment">    *</span></span><br><span class="line"><span class="comment">    * <span class="doctag">@param</span>:</span></span><br><span class="line"><span class="comment">    * <span class="doctag">@return</span>:</span></span><br><span class="line"><span class="comment">    * <span class="doctag">@auther</span>: wanghao</span></span><br><span class="line"><span class="comment">    * <span class="doctag">@date</span>: 2020/9/21 下午5:25</span></span><br><span class="line"><span class="comment">    */</span></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> ApiResult <span class="title">creditSubmit</span><span class="params">(String orderNo)</span> </span>&#123;</span><br><span class="line">        String result, retMessage = <span class="string">&quot;&quot;</span>;</span><br><span class="line">        <span class="keyword">try</span> &#123;</span><br><span class="line">            Map&lt;String, Object&gt; resMap = <span class="keyword">new</span> HashMap&lt;&gt;();</span><br><span class="line">            <span class="comment">// 订单基础信息</span></span><br><span class="line">            OrderInfo order = kelanMapper.getOrderId(orderNo);</span><br><span class="line">            <span class="comment">// 更新影像文件</span></span><br><span class="line">            iFileService.saveTheUploadedFile(<span class="keyword">null</span>, String.valueOf(order.getId()), <span class="string">&quot;incomingMaterial&quot;</span>, <span class="number">403</span>, <span class="string">&quot;0000000000&quot;</span>);</span><br><span class="line">            logger.info(<span class="string">&quot;订单信息[&#123;&#125;]&quot;</span>, JSON.toJSONString(order));</span><br><span class="line">            Map&lt;String, Object&gt; orderInfo = kelanService.getOrderInfo(order.getId());</span><br><span class="line">            <span class="comment">// 投保人类型</span></span><br><span class="line">            <span class="keyword">int</span> creditType = kelanMapper.getCreditTypeById(order.getId());</span><br><span class="line">            <span class="comment">// 获取项目信息</span></span><br><span class="line">            Map&lt;String, Object&gt; projectInfo = iProjectService.getBusinessFieldsByProjectItemCode(order.getProjectItemCode());</span><br><span class="line">            logger.info(<span class="string">&quot;项目信息[&#123;&#125;]&quot;</span>, JSON.toJSONString(projectInfo));</span><br><span class="line">            String creditNo = CapitalUtils.getOrderNo(INSTITUTION_CODE);</span><br><span class="line">            BizCreditHistory bizCreditHistory = <span class="keyword">new</span> BizCreditHistory(orderNo, creditNo);</span><br><span class="line">            <span class="keyword">try</span> &#123;</span><br><span class="line">                bizCreditHistoryMapper.insert(bizCreditHistory);</span><br><span class="line">            &#125; <span class="keyword">catch</span> (Exception e) &#123;</span><br><span class="line">                logger.info(<span class="string">&quot;入库失败 [&#123;&#125;]&quot;</span>, bizCreditHistory);</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="comment">// 判断是否外部资产</span></span><br><span class="line">            resMap.put(<span class="string">&quot;businessNo&quot;</span>, <span class="string">&quot;2&quot;</span>.equals(String.valueOf(order.getDataSource())) ? kelanMapper.getCredByOrderNo(orderNo) : orderNo);</span><br><span class="line">            resMap.put(<span class="string">&quot;creditNo&quot;</span>, creditNo);</span><br><span class="line">            <span class="comment">// 影像文件上传方式 01：大地影像平台</span></span><br><span class="line">            resMap.put(<span class="string">&quot;imageFileMode&quot;</span>, <span class="string">&quot;01&quot;</span>);</span><br><span class="line">            <span class="comment">// 借款人类型 01：个人 02：企业</span></span><br><span class="line">            resMap.put(<span class="string">&quot;borrowerType&quot;</span>, creditType == <span class="number">3</span> ? <span class="string">&quot;01&quot;</span> : <span class="string">&quot;02&quot;</span>);</span><br><span class="line">            <span class="comment">// 抵押类型</span></span><br><span class="line">            resMap.put(<span class="string">&quot;mortgageType&quot;</span>, orderInfo.get(<span class="string">&quot;mortgageTypeGd&quot;</span>));</span><br><span class="line">            <span class="comment">// 利率模式  01：固定利率</span></span><br><span class="line">            <span class="keyword">if</span> (<span class="string">&quot;1&quot;</span>.equals(String.valueOf(projectInfo.get(<span class="string">&quot;isFixFee&quot;</span>)))) &#123;</span><br><span class="line">                resMap.put(<span class="string">&quot;rateMode&quot;</span>, <span class="string">&quot;01&quot;</span>);</span><br><span class="line">            &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                <span class="keyword">return</span> ApiResult.failure(ResultCode.FAIL, <span class="string">&quot;利率模式不合法&quot;</span>, <span class="keyword">true</span>);</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="comment">// 贷款利率</span></span><br><span class="line">            resMap.put(<span class="string">&quot;loanRate&quot;</span>, orderInfo.get(<span class="string">&quot;borrowingRate&quot;</span>));</span><br><span class="line">            <span class="comment">// 保费缴费方式</span></span><br><span class="line">            resMap.put(<span class="string">&quot;payKind&quot;</span>, CapitalUtils.convertPaykind(String.valueOf(projectInfo.get(<span class="string">&quot;premiumCollectionMethod&quot;</span>))));</span><br><span class="line">            <span class="comment">// 影像信息</span></span><br><span class="line">            resMap.put(<span class="string">&quot;imgList&quot;</span>, CapitalUtils.analysisImgList(kelanMapper.getImageInfoById(order.getId())));</span><br><span class="line">            <span class="comment">// 借款人信息</span></span><br><span class="line">            resMap.put(<span class="string">&quot;indInfo&quot;</span>, hnCapitalService.getBorrowerInfo(orderNo));</span><br><span class="line">            <span class="comment">// 贷款信息</span></span><br><span class="line">            resMap.put(<span class="string">&quot;loanInfo&quot;</span>, hnCapitalService.getLoanInfo(orderNo));</span><br><span class="line">            <span class="comment">// 企业信息</span></span><br><span class="line">            resMap.put(<span class="string">&quot;endInfo&quot;</span>, hnCapitalService.getIndusryInfo(orderNo));</span><br><span class="line">            <span class="comment">// 支付信息</span></span><br><span class="line">            resMap.put(<span class="string">&quot;payInfo&quot;</span>, hnCapitalService.getPayInfo(orderNo));</span><br><span class="line">            <span class="comment">// 房产信息</span></span><br><span class="line">            resMap.put(<span class="string">&quot;propertyList&quot;</span>, hnCapitalService.getHouseInfo(orderNo));</span><br><span class="line">            <span class="comment">// 联系人信息</span></span><br><span class="line">            resMap.put(<span class="string">&quot;linkmanInfos&quot;</span>, kelanMapper.getLinkmanInfoById(order.getId()));</span><br><span class="line">            <span class="comment">// 共同借款人信息</span></span><br><span class="line">            resMap.put(<span class="string">&quot;applicantList&quot;</span>, kelanMapper.queryById(order.getId()));</span><br><span class="line">            <span class="comment">// 扩展信息</span></span><br><span class="line">            resMap.put(<span class="string">&quot;extendInfo&quot;</span>, hnCapitalService.getExtraInfo(orderNo));</span><br><span class="line">            logger.info(<span class="string">&quot;项目父级资金编码[&#123;&#125;],授信报文[&#123;&#125;]&quot;</span>, order.getCapitalSideParentCode(), JSON.toJSONString(resMap));</span><br><span class="line">            <span class="keyword">if</span> (CapitalFactory.HN_CODE.equals(order.getCapitalSideParentCode())) &#123;</span><br><span class="line">                resMap.put(<span class="string">&quot;insureInfo&quot;</span>, hnCapitalService.getUnderWriteInfo(orderNo));</span><br><span class="line">                result = HttpHead.sendPost(CapitalFactory.BFD, URL, resMap, BusinessCode.BUSINESS_APPLY, order.getCapitalSideParentCode(), orderNo, order.getProjectItemCode(), INSTITUTION_CODE);</span><br><span class="line">            &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                logger.error(<span class="string">&quot;(资金)项目编号非法&quot;</span>);</span><br><span class="line">                <span class="keyword">return</span> ApiResult.failure(ResultCode.FAIL, <span class="string">&quot;系统提示:项目编号非法&quot;</span>, <span class="keyword">true</span>);</span><br><span class="line">            &#125;</span><br><span class="line">            CurrentUser currentUser = <span class="keyword">new</span> CurrentUser();</span><br><span class="line">            currentUser.setUserId(AutoNodeDictionary.AUTO_NODE_EXECUTOR);</span><br><span class="line">            List&lt;FieldValueInfo&gt; fieldValueInfos = <span class="keyword">new</span> ArrayList&lt;&gt;();</span><br><span class="line">            fieldValueInfos.add(<span class="keyword">new</span> FieldValueInfo(<span class="string">&quot;creditNo&quot;</span>, creditNo));</span><br><span class="line">            orderService.saveOrderDetailInfo(order.getId(), fieldValueInfos, currentUser.getUserId(), <span class="keyword">false</span>);</span><br><span class="line">            JSONObject data = JSONObject.parseObject(result);</span><br><span class="line">            logger.info(<span class="string">&quot;授信提交返回结果[&#123;&#125;]&quot;</span>, result);</span><br><span class="line">            retMessage = data.getString(<span class="string">&quot;retMessage&quot;</span>);</span><br><span class="line">            <span class="keyword">return</span> <span class="string">&quot;000000&quot;</span>.equals(data.getString(<span class="string">&quot;retCode&quot;</span>)) ? ApiResult.success(result) : ApiResult.failure(ResultCode.SUBMIT_ORDER_FAIL, data.getString(<span class="string">&quot;retMessage&quot;</span>), <span class="keyword">true</span>);</span><br><span class="line">        &#125; <span class="keyword">catch</span> (Exception e) &#123;</span><br><span class="line">            logger.error(<span class="string">&quot;调用接口异常~&quot;</span>, e);</span><br><span class="line">            <span class="keyword">return</span> ApiResult.failure(ResultCode.FAIL, retMessage == <span class="keyword">null</span> ? ResultCode.FAIL.getMsg() : retMessage, <span class="keyword">true</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">    * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">    * <span class="doctag">@Description</span> 用款申请</span></span><br><span class="line"><span class="comment">    * <span class="doctag">@Author</span> zhx</span></span><br><span class="line"><span class="comment">    * <span class="doctag">@Date</span> 17:35 2020/9/21</span></span><br><span class="line"><span class="comment">    * <span class="doctag">@Param</span></span></span><br><span class="line"><span class="comment">    * <span class="doctag">@Version</span> 1.0</span></span><br><span class="line"><span class="comment">    */</span></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> ApiResult <span class="title">loanApply</span><span class="params">(String orderNo)</span> </span>&#123;</span><br><span class="line">        ChainHashMap&lt;String, Object&gt; map = <span class="keyword">new</span> ChainHashMap&lt;&gt;();</span><br><span class="line">        <span class="keyword">try</span> &#123;</span><br><span class="line">            JSONObject initLoanApplyParams = consumerFinanceService.initNewLoanLendApplyRequestParams(orderNo);</span><br><span class="line">            OrderInfo orderInfo = orderService.getOrderBaseInfo(<span class="keyword">null</span>, orderNo);</span><br><span class="line">            Map&lt;String, Object&gt; orderDetails = kelanService.getOrderInfo(orderInfo.getId());</span><br><span class="line">            Map&lt;String, Object&gt; customerInfo = kelanService.getLoanBFieldInfo(orderInfo.getId(), orderInfo.getCustomerId());</span><br><span class="line">            String bankInfo = (String) orderDetails.get(<span class="string">&quot;payBankNameHn&quot;</span>);</span><br><span class="line">            map.add(<span class="string">&quot;creditNo&quot;</span>, orderDetails.get(<span class="string">&quot;creditNo&quot;</span>))<span class="comment">//授信申请单号</span></span><br><span class="line">                    <span class="comment">// 用款申请单号</span></span><br><span class="line">                    .add(<span class="string">&quot;loanNo&quot;</span>, CapitalUtils.getLoanNo(INSTITUTION_CODE))</span><br><span class="line">                    <span class="comment">// 放款金额</span></span><br><span class="line">                    .add(<span class="string">&quot;dsbrAmt&quot;</span>, orderDetails.get(<span class="string">&quot;loanAmount&quot;</span>))</span><br><span class="line">                    <span class="comment">// 1-以传入账号为准 0-以贷款申请时放款账号为准</span></span><br><span class="line">                    .add(<span class="string">&quot;acmdId&quot;</span>, <span class="string">&quot;0&quot;</span>)</span><br><span class="line">                    <span class="comment">// 支付类型</span></span><br><span class="line">                    .add(<span class="string">&quot;payType&quot;</span>, <span class="string">&quot;1&quot;</span>.equals(String.valueOf(orderDetails.get(<span class="string">&quot;isEntrust&quot;</span>))) ? <span class="string">&quot;02&quot;</span> : <span class="string">&quot;01&quot;</span>)</span><br><span class="line">                    <span class="comment">// 账户类型</span></span><br><span class="line">                    .add(<span class="string">&quot;acctType&quot;</span>, orderDetails.get(<span class="string">&quot;accountTypeGd&quot;</span>))</span><br><span class="line">                    <span class="comment">// 账户户名</span></span><br><span class="line">                    .add(<span class="string">&quot;payeeName&quot;</span>, orderDetails.get(<span class="string">&quot;payAccountNo&quot;</span>))</span><br><span class="line">                    <span class="comment">// 账户账号</span></span><br><span class="line">                    .add(<span class="string">&quot;payeeAcct&quot;</span>, orderDetails.get(<span class="string">&quot;payCardNo&quot;</span>))</span><br><span class="line">                    <span class="comment">// 银行预留手机号</span></span><br><span class="line">                    .add(<span class="string">&quot;bankCardReservePhone&quot;</span>, customerInfo.get(<span class="string">&quot;reservePhone&quot;</span>))</span><br><span class="line">                    <span class="comment">// 开户银行行名</span></span><br><span class="line">                    .add(<span class="string">&quot;openBank&quot;</span>, bankInfo.substring(<span class="number">0</span>, bankInfo.indexOf(<span class="string">&quot;(&quot;</span>)))</span><br><span class="line">                    <span class="comment">// 开户银行行号</span></span><br><span class="line">                    .add(<span class="string">&quot;openBankNo&quot;</span>, bankInfo.substring(bankInfo.indexOf(<span class="string">&quot;(&quot;</span>) + <span class="number">1</span>, bankInfo.indexOf(<span class="string">&quot;)&quot;</span>)))</span><br><span class="line">                    .add(<span class="string">&quot;idType&quot;</span>, initLoanApplyParams.get(<span class="string">&quot;phIdType&quot;</span>))</span><br><span class="line">                    .add(<span class="string">&quot;idNo&quot;</span>, initLoanApplyParams.get(<span class="string">&quot;phIdNo&quot;</span>));</span><br><span class="line">            logger.info(<span class="string">&quot;资金方[华能资金],接口[用款申请],订单号[&#123;&#125;],请求报文[&#123;&#125;]&quot;</span>, orderNo, JSON.toJSONString(map));</span><br><span class="line">            String result = HttpHead.sendPost(CapitalFactory.BFD, URL, map, BusinessCode.LOAN_APPLY, orderInfo.getCapitalSideParentCode(), orderNo, orderInfo.getProjectItemCode(), INSTITUTION_CODE);</span><br><span class="line">            JSONObject data = JSONObject.parseObject(result);</span><br><span class="line">            <span class="keyword">return</span> <span class="string">&quot;000000&quot;</span>.equals(data.getString(<span class="string">&quot;retCode&quot;</span>)) ? ApiResult.success(result) : ApiResult.failure(ResultCode.LOAN_LEND_APPLY_FAIL, data.getString(<span class="string">&quot;retMessage&quot;</span>), <span class="keyword">true</span>);</span><br><span class="line">        &#125; <span class="keyword">catch</span> (Exception e) &#123;</span><br><span class="line">            logger.error(<span class="string">&quot;华能放款申请异常&quot;</span>, e);</span><br><span class="line">            <span class="keyword">return</span> ApiResult.failure(ResultCode.LOAN_LEND_APPLY_FAIL);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure></li>
+</ul>
+</li>
+<li><ol start="4">
+<li>编写每个资金方对应校验方法，通用接口<code>com/che300/module/business/capital/service/RuleService.java</code>。<br>每个资金的接口可能都会有一些特殊校验，目前主要是校验一些字段以及影像件上传的信息。</li>
+</ol>
+</li>
+<li><p>5.自动节点 资金需求中需要实现自动节点时，需要在数据库表<code>wf_node_belong</code>添加对应的节点信息，静态变量类<code>AutoNodeDictionary</code>加上对应的节点，编号信息保持一致。注意：并行开发时，可能多人会添加自动节点，注意与其他开发沟通，防止节点重复。<br>例如：授信提交自动节点代码：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * 功能描述: 业务申请(授信提交)</span></span><br><span class="line"><span class="comment"> *</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@param</span>: orderNo 进件后生成的orderNo</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@return</span>: com.che300.common.model.ApiResult</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@auther</span>: wanghao50</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@date</span>: 2020/5/19 11:24</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="meta">@Compensation(node = AutoNodeDictionary.BUSINESS_APPLY)</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">creditSubmit</span><span class="params">(String orderNo, CurrentUser currentUser)</span> <span class="keyword">throws</span> Exception </span>&#123;</span><br><span class="line">    CapitalCommonInterface capitalCommonInterface = capitalFactory.getService(orderNo);</span><br><span class="line">    ApiResult result = capitalCommonInterface.creditSubmit(orderNo);</span><br><span class="line">    logger.info(<span class="string">&quot;授信提交结果为[&#123;&#125;]&quot;</span>, result == <span class="keyword">null</span> ? <span class="string">&quot;&quot;</span> : result);</span><br><span class="line">    <span class="keyword">boolean</span> execFailed = result == <span class="keyword">null</span> || !Objects.equals(Constant.ResultCodel.SUCCESS, result.getCode());</span><br><span class="line">    Map&lt;String, Object&gt; map = <span class="keyword">new</span> HashMap&lt;&gt;();</span><br><span class="line">    <span class="keyword">if</span> (result.getCode().equals(ResultCode.SUCCESS.getCode())) &#123;</span><br><span class="line">        JSONObject data = (JSONObject) JSONObject.parse((String) result.getData());</span><br><span class="line">        String creditNo = data.getString(<span class="string">&quot;creditNo&quot;</span>);</span><br><span class="line">        map.put(<span class="string">&quot;creditNo&quot;</span>, creditNo);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">int</span> status = execFailed ? <span class="number">4</span> : <span class="number">3</span>;</span><br><span class="line">    String message = execFailed ? <span class="string">&quot;业务申请失败,错误原因:&quot;</span> + result.getMsg() : <span class="string">&quot;业务申请成功&quot;</span>;</span><br><span class="line">    <span class="comment">// 此处继续推进下面的节点 </span></span><br><span class="line">     completeAutoNode(orderNo, execFailed, status, message, AutoNodeDictionary.BUSINESS_APPLY, map);</span><br><span class="line">&#125;</span><br><span class="line">    </span><br></pre></td></tr></table></figure></li>
+<li><ol start="6">
+<li>回调接口 接受资金的授信结果/保单上传结果/放款结果并推进流程<br>回调接口统一在 <code>com/che300/module/business/capital/controller/CallBackController.java</code><br>根据返回结果中的 <code>callBackType</code> 接口类型，判断是 <code>授信结果</code>还是<code>预审结果</code>等等，执行对应的操作</li>
+</ol>
+</li>
+</ul>
+<h4 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h4><p>  资金对接的难点主要是在于如何将外部逻辑嵌入到车房系统内，首先需要了解业务流程，确定是否需要新增节点(尽可能复用之前已有的节点)，确定是否有新增的动态字段以及字典值，然后根据接口文档编写接口获取到所有数据发送。</p>
+<h3 id="资金对接-接口数据涉及到一些关联表-以及部分注意事项"><a href="#资金对接-接口数据涉及到一些关联表-以及部分注意事项" class="headerlink" title="资金对接 接口数据涉及到一些关联表 以及部分注意事项"></a>资金对接 接口数据涉及到一些关联表 以及部分注意事项</h3><ul>
+<li>订单表：<code>biz_order</code>,订单详情表：<code>biz_order_detail</code></li>
+<li>影像件的信息。<code>biz_business_file_set</code>,<code>biz_business_file_detail</code></li>
+<li>受托支付修改记录表: <code>biz_bank_account_history</code></li>
+</ul>
+<p>注意： </p>
+<ul>
+<li>1、受托支付信息修改：车房系统中的<code>受托支付账户修改</code>模块，银行放款账户信息的修改，目前只有 <code>恒丰银行</code>支持单独接口修改，<code>华能</code>资金目前采用的是重新授信提交的方式去修改受托账户信息。</li>
+<li>2、注意节点之间数据流问题，系统内出保单之后是无法在进行数据和影像件的修改。</li>
+<li>3、一定要做好数据的校验，影像件的校验，减少因校验问题产生的订单退回失败（目前系统内针对资金校验已做配置化，详情问一下<code>周鸿翔</code>）。</li>
+<li>4、与产品交流需求时，一定要详细了解流程，不解的地方及时与产品交流</li>
+<li>5、注意接口传值时，字典值的映射。</li>
+<li>6、资金方的区分是根据<code>biz_order_detail</code>表中的<code>capital_side_parent_code</code>，开发前，消金平台会建好对应的资金方。</li>
+<li>7、影像件问题，由于有些影像件上传入口没有信息入库，使用影像件信息需要从大地影像平台重新拉取一次。  <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 更新影像文件</span></span><br><span class="line">    iFileService.saveTheUploadedFile(<span class="keyword">null</span>, String.valueOf(orderInfo.getId()), <span class="string">&quot;incomingMaterial&quot;</span>, <span class="number">403</span>, <span class="string">&quot;0000000000&quot;</span>);</span><br></pre></td></tr></table></figure></li>
+</ul>
+
+  
+  
+    
+    <div class='footer'>
+      
+      
+      
+        <div class='copyright'>
+          <blockquote>
+            
+              
+                <p>博客内容遵循 署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 协议</p>
+
+              
+            
+              
+                <p>本文永久链接是：<a href=http://example.com/2021/03/01/%E4%BF%A1%E4%BF%9D%E5%B9%B3%E5%8F%B0/>http://example.com/2021/03/01/%E4%BF%A1%E4%BF%9D%E5%B9%B3%E5%8F%B0/</a></p>
+              
+            
+          </blockquote>
+        </div>
+      
+      
+    </div>
+  
+  
+    
+
+
+  <div class='article-meta' id="bottom">
+    <div class='new-meta-box'>
+      
+        
+          <div class="new-meta-item date" itemprop="dateUpdated" datetime="2021-03-14T21:21:01+08:00">
+  <a class='notlink'>
+    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <p>更新于：2021年3月14日</p>
+  </a>
+</div>
+
+        
+      
+        
+          
+
+        
+      
+        
+          
+  <div class="new-meta-item share -mob-share-list">
+  <div class="-mob-share-list share-body">
+    
+      
+        <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://example.com/2021/03/01/%E4%BF%A1%E4%BF%9D%E5%B9%B3%E5%8F%B0/&title=信保平台 - 姜山的博客&summary="
+          
+          >
+          
+            <img src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qq.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qq.png" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=">
+          
+        </a>
+      
+    
+      
+        <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://example.com/2021/03/01/%E4%BF%A1%E4%BF%9D%E5%B9%B3%E5%8F%B0/&title=信保平台 - 姜山的博客&summary="
+          
+          >
+          
+            <img src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qzone.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qzone.png" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=">
+          
+        </a>
+      
+    
+      
+        <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="http://service.weibo.com/share/share.php?url=http://example.com/2021/03/01/%E4%BF%A1%E4%BF%9D%E5%B9%B3%E5%8F%B0/&title=信保平台 - 姜山的博客&summary="
+          
+          >
+          
+            <img src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/weibo.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/weibo.png" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=">
+          
+        </a>
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+
+
+        
+      
+    </div>
+  </div>
+
+
+  
+  
+
+  
+    <div class="prev-next">
+      
+      
+        <a class='next' href='/2021/02/26/synchronized%E5%85%B3%E9%94%AE%E5%AD%97/'>
+          <p class='title'>synchronized关键字<i class="fas fa-chevron-right" aria-hidden="true"></i></p>
+          <p class='content'>能否并发执行同一个对象不同的synchronized方法首先说一下结论，`不能`。不同线程不能去执行同一个对象中的不同`synchronized`方法，因为对象锁被占用了。
+
+测试 步骤：
+
+创...</p>
+        </a>
+      
+    </div>
+  
+</article>
+
+
+  
+
+  <article class="post white-box reveal shadow" id="comments">
+    <p ct><i class='fas fa-comments'></i> 评论</p>
+    
+    <div id="valine_container" class="valine_thread">
+  <i class="fas fa-cog fa-spin fa-fw fa-2x"></i>
+</div>
+
+  </article>
+
+
+
+
+
+
+</div>
+<aside class='l_side'>
+  
+  
+    
+    
+
+
+
+  <section class="widget toc-wrapper shadow desktop mobile" id="toc-div" >
+    
+  <header>
+    
+      <i class="fas fa-list fa-fw" aria-hidden="true"></i><span class='name'>本文目录</span>
+    
+  </header>
+
+
+    <div class='content'>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%A4%A7%E5%9C%B0%E4%BF%A1%E4%BF%9D%E7%A7%91%E6%8A%80%E5%B9%B3%E5%8F%B0-%E8%BD%A6%E6%88%BF%E7%B3%BB%E7%BB%9F"><span class="toc-text">大地信保科技平台(车房系统)</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%B3%BB%E7%BB%9F%E7%AE%80%E4%BB%8B"><span class="toc-text">系统简介</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84"><span class="toc-text">系统架构</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%9B%B8%E5%85%B3%E7%B3%BB%E7%BB%9F"><span class="toc-text">相关系统</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9C%8D%E5%8A%A1%E4%BB%8B%E7%BB%8D"><span class="toc-text">服务介绍</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#sys-service%EF%BC%9A%E7%B3%BB%E7%BB%9F%E6%9C%8D%E5%8A%A1"><span class="toc-text">sys-service：系统服务</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%8A%80%E6%9C%AF%E5%AE%9E%E7%8E%B0"><span class="toc-text">技术实现</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%BC%95%E6%93%8E%E6%B5%81Activity"><span class="toc-text">引擎流Activity</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8A%A8%E6%80%81%E5%AD%97%E5%85%B8"><span class="toc-text">动态字典</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%8A%A8%E6%80%81%E5%AD%97%E5%85%B8%E7%9A%84%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AE%BE%E8%AE%A1"><span class="toc-text">动态字典的数据库设计</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%BC%80%E5%8F%91%E6%B5%81%E7%A8%8B"><span class="toc-text">开发流程</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%A4%96%E9%83%A8%E8%B5%84%E9%87%91%E7%9A%84%E5%AF%B9%E6%8E%A5%E9%83%A8%E5%88%86-%E7%8E%8B%E6%B5%A9%E7%A6%BB%E8%81%8C%E4%BA%A4%E6%8E%A5"><span class="toc-text">外部资金的对接部分(王浩离职交接)</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%B5%84%E9%87%91%E5%AF%B9%E6%8E%A5%E7%9A%84%E6%B5%81%E7%A8%8B"><span class="toc-text">资金对接的流程</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%B5%84%E9%87%91%E5%AF%B9%E6%8E%A5%E4%B8%AD%E5%8F%AF%E8%83%BD%E5%8F%91%E7%94%9F%E7%9A%84%E9%97%AE%E9%A2%98%E4%BB%A5%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88"><span class="toc-text">资金对接中可能发生的问题以及解决方案</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#git%E5%88%86%E6%94%AF%E5%BC%80%E5%8F%91"><span class="toc-text">git分支开发</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%B5%84%E9%87%91%E4%BB%A3%E7%A0%81"><span class="toc-text">资金代码</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%B5%84%E9%87%91%E4%B8%80%E8%88%AC%E5%8C%85%E5%90%AB%E7%9A%84%E6%8E%A5%E5%8F%A3"><span class="toc-text">资金一般包含的接口</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91%E5%85%B7%E4%BD%93%E6%B5%81%E7%A8%8B"><span class="toc-text">后端开发具体流程</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%85%B7%E4%BD%93%E5%BC%80%E5%8F%91%E8%BF%87%E7%A8%8B"><span class="toc-text">具体开发过程</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%80%BB%E7%BB%93"><span class="toc-text">总结</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%B5%84%E9%87%91%E5%AF%B9%E6%8E%A5-%E6%8E%A5%E5%8F%A3%E6%95%B0%E6%8D%AE%E6%B6%89%E5%8F%8A%E5%88%B0%E4%B8%80%E4%BA%9B%E5%85%B3%E8%81%94%E8%A1%A8-%E4%BB%A5%E5%8F%8A%E9%83%A8%E5%88%86%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9"><span class="toc-text">资金对接 接口数据涉及到一些关联表 以及部分注意事项</span></a></li></ol></li></ol>
+    </div>
+  </section>
+
+
+  
+
+
+</aside>
+
+
+
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2021 jiangshan<br>
+      powered_by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+      <a class="s-top fas fa-arrow-up fa-fw" href='javascript:void(0)'></a>
+    </div>
+  </div>
+  <div>
+    <!-- required -->
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5/dist/jquery.min.js"></script>
+
+<script>
+  function pjax_fancybox() {
+    $(".md .gallery").find("img").each(function () { //渲染 fancybox
+      var element = document.createElement("a"); // a 标签
+      $(element).attr("class", "fancybox");
+      $(element).attr("pjax-fancybox", "");  // 过滤 pjax
+      $(element).attr("href", $(this).attr("src"));
+      if ($(this).attr("data-original")) {
+        $(element).attr("href", $(this).attr("data-original"));
+      }
+      $(element).attr("data-fancybox", "images");
+      var caption = "";   // 描述信息
+      if ($(this).attr('alt')) {  // 判断当前页面是否存在描述信息
+        $(element).attr('data-caption', $(this).attr('alt'));
+        caption = $(this).attr('alt');
+      }
+      var div = document.createElement("div");
+      $(div).addClass("fancybox");
+      $(this).wrap(div); // 最外层套 div ，其实主要作用还是 class 样式
+      var span = document.createElement("span");
+      $(span).addClass("image-caption");
+      $(span).text(caption); // 加描述
+      $(this).after(span);  // 再套一层描述
+      $(this).wrap(element);  // 最后套 a 标签
+    })
+    $(".md .gallery").find("img").fancybox({
+      selector: '[data-fancybox="images"]',
+      hash: false,
+      loop: false,
+      closeClick: true,
+      helpers: {
+        overlay: {closeClick: true}
+      },
+      buttons: [
+        "zoom",
+        "close"
+      ]
+    });
+  };
+  function SCload_fancybox() {
+    if ($(".md .gallery").find("img").length == 0) return;
+    loadCSS("https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css", document.getElementById("loadcss"));
+    setTimeout(function() {
+      loadScript('https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js', pjax_fancybox)
+    }, 1);
+  };
+  $(function () {
+    SCload_fancybox();
+  });
+</script>
+
+
+<!-- internal -->
+
+
+
+
+
+
+
+  <script defer src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.1.0/dist/lazyload.min.js"></script>
+<script>
+  // https://www.npmjs.com/package/vanilla-lazyload
+  // Set the options globally
+  // to make LazyLoad self-initialize
+  window.lazyLoadOptions = {
+    elements_selector: ".lazyload",
+    threshold: 0
+  };
+  // Listen to the initialization event
+  // and get the instance of LazyLoad
+  window.addEventListener(
+    "LazyLoad::Initialized",
+    function (event) {
+      window.lazyLoadInstance = event.detail.instance;
+    },
+    false
+  );
+  document.addEventListener('DOMContentLoaded', function () {
+    lazyLoadInstance.update();
+  });
+  document.addEventListener('pjax:complete', function () {
+    lazyLoadInstance.update();
+  });
+</script>
+
+
+
+
+  
+  
+    <script>
+      window.FPConfig = {
+        delay: 0,
+        ignoreKeywords: [],
+        maxRPS: 5,
+        hoverDelay: 25
+      };
+    </script>
+    <script defer src="https://cdn.jsdelivr.net/gh/gijo-varghese/flying-pages@2.1.2/flying-pages.min.js"></script>
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+<script src="/js/valine.js"></script>
+
+
+<script>
+  var GUEST_INFO = ['nick', 'mail', 'link'];
+  var meta = 'nick,mail,link'.split(',').filter(function (item) {
+    return GUEST_INFO.indexOf(item) > -1
+  });
+  var REQUIRED_FIELDS = ['nick', 'mail', 'link'];
+  var requiredFields = 'nick,mail'.split(',').filter(function (item) {
+    return REQUIRED_FIELDS.indexOf(item) > -1
+  });
+
+  function emoji(path, idx, ext) {
+    return path + "/" + path + "-" + idx + "." + ext;
+  }
+
+  var emojiMaps = {};
+  for (var i = 1; i <= 54; i++) {
+    emojiMaps['tieba-' + i] = emoji('tieba', i, 'png');
+  }
+  for (var i = 1; i <= 101; i++) {
+    emojiMaps['qq-' + i] = emoji('qq', i, 'gif');
+  }
+  for (var i = 1; i <= 116; i++) {
+    emojiMaps['aru-' + i] = emoji('aru', i, 'gif');
+  }
+  for (var i = 1; i <= 125; i++) {
+    emojiMaps['twemoji-' + i] = emoji('twemoji', i, 'png');
+  }
+  for (var i = 1; i <= 4; i++) {
+    emojiMaps['weibo-' + i] = emoji('weibo', i, 'png');
+  }
+
+  function pjax_valine() {
+    if(!document.querySelectorAll("#valine_container")[0])return;
+
+    let pagePlaceholder = $.trim($('#pjax-comment-placeholder').text()) || "快来评论吧~";
+
+    let path = $.trim($('#pjax-comment-path').text());
+    if (path.length == 0) {
+      let defaultPath = '';
+      path = defaultPath || decodeURI(window.location.pathname);
+    }
+
+    var valine = new Valine();
+    valine.init({
+      el: '#valine_container',
+      meta: meta,
+      placeholder: pagePlaceholder,
+      path: path,
+      appId: "",
+      appKey: "",
+      pageSize: '10',
+      avatar: 'robohash',
+      lang: 'zh-cn',
+      visitor: 'true',
+      highlight: 'true',
+      mathJax: 'false',
+      enableQQ: 'true',
+      recordIP: false,
+      requiredFields: requiredFields,
+      emojiCDN: 'https://cdn.jsdelivr.net/gh/volantis-x/cdn-emoji/valine/',
+      emojiMaps: emojiMaps
+    })
+  }
+
+  $(function () {
+    pjax_valine();
+  });
+</script>
+
+
+
+
+
+
+
+  
+<script src="/js/app.js"></script>
+
+
+
+
+  
+    
+<script src="/js/search.js"></script>
+
+  
+
+
+<!-- optional -->
+
+  <script>
+const SearchServiceimagePath="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@master/img/";
+const ROOT =  ("/" || "/").endsWith('/') ? ("/" || "/") : ("//" || "/" );
+(function ($) {
+  
+    customSearch = new HexoSearch({
+      imagePath: SearchServiceimagePath
+    });
+  
+})(jQuery);
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+  <script defer>
+
+  const LCCounter = {
+    app_id: 'u9j57bwJod4EDmXWdxrwuqQT-MdYXbMMI',
+    app_key: 'jfHtEKVE24j0IVCGHbvuFClp',
+    custom_api_server: '',
+
+    // 查询存储的记录
+    getRecord(Counter, url, title) {
+      return new Promise(function (resolve, reject) {
+        Counter('get', '/classes/Counter?where=' + encodeURIComponent(JSON.stringify({url})))
+          .then(resp => resp.json())
+          .then(({results, code, error}) => {
+            if (code === 401) {
+              throw error;
+            }
+            if (results && results.length > 0) {
+              var record = results[0];
+              resolve(record);
+            } else {
+              Counter('post', '/classes/Counter', {url, title: title, times: 0})
+                .then(resp => resp.json())
+                .then((record, error) => {
+                  if (error) {
+                    throw error;
+                  }
+                  resolve(record);
+                }).catch(error => {
+                console.error('Failed to create', error);
+                reject(error);
+              });
+            }
+          }).catch((error) => {
+          console.error('LeanCloud Counter Error:', error);
+          reject(error);
+        });
+      })
+    },
+
+    // 发起自增请求
+    increment(Counter, incrArr) {
+      return new Promise(function (resolve, reject) {
+        Counter('post', '/batch', {
+          "requests": incrArr
+        }).then((res) => {
+          res = res.json();
+          if (res.error) {
+            throw res.error;
+          }
+          resolve(res);
+        }).catch((error) => {
+          console.error('Failed to save visitor count', error);
+          reject(error);
+        });
+      });
+    },
+
+    // 构建自增请求体
+    buildIncrement(objectId) {
+      return {
+        "method": "PUT",
+        "path": `/1.1/classes/Counter/${ objectId }`,
+        "body": {
+          "times": {
+            '__op': 'Increment',
+            'amount': 1
+          }
+        }
+      }
+    },
+
+    // 校验是否为有效的 UV
+    validUV() {
+      var key = 'LeanCloudUVTimestamp';
+      var flag = localStorage.getItem(key);
+      if (flag) {
+        // 距离标记小于 24 小时则不计为 UV
+        if (new Date().getTime() - parseInt(flag) <= 86400000) {
+          return false;
+        }
+      }
+      localStorage.setItem(key, new Date().getTime().toString());
+      return true;
+    },
+
+    addCount(Counter) {
+      var enableIncr = '' === 'true' && window.location.hostname !== 'localhost';
+      enableIncr = true;
+      var getterArr = [];
+      var incrArr = [];
+      // 请求 PV 并自增
+      var pvCtn = document.querySelector('#lc-sv');
+      if (pvCtn || enableIncr) {
+        var pvGetter = this.getRecord(Counter, 'http://example.com' + '/#lc-sv', 'Visits').then((record) => {
+          incrArr.push(this.buildIncrement(record.objectId))
+          var eles = document.querySelectorAll('#lc-sv #number');
+          if (eles.length > 0) {
+            eles.forEach((el,index,array)=>{
+              el.innerText = record.times + 1;
+              if (pvCtn) {
+                pvCtn.style.display = 'inline';
+              }
+            })
+          }
+        });
+        getterArr.push(pvGetter);
+      }
+
+      // 请求 UV 并自增
+      var uvCtn = document.querySelector('#lc-uv');
+      if (uvCtn || enableIncr) {
+        var uvGetter = this.getRecord(Counter, 'http://example.com' + '/#lc-uv', 'Visitors').then((record) => {
+          var vuv = this.validUV();
+          vuv && incrArr.push(this.buildIncrement(record.objectId))
+          var eles = document.querySelectorAll('#lc-uv #number');
+          if (eles.length > 0) {
+            eles.forEach((el,index,array)=>{
+              el.innerText = record.times + (vuv ? 1 : 0);
+              if (uvCtn) {
+                uvCtn.style.display = 'inline';
+              }
+            })
+          }
+        });
+        getterArr.push(uvGetter);
+      }
+
+      // 请求文章的浏览数，如果是当前页面就自增
+      var allPV = document.querySelectorAll('#lc-pv');
+      if (allPV.length > 0 || enableIncr) {
+        for (i = 0; i < allPV.length; i++) {
+          let pv = allPV[i];
+          let title = pv.getAttribute('data-title');
+          var url = 'http://example.com' + pv.getAttribute('data-path');
+          if (url) {
+            var viewGetter = this.getRecord(Counter, url, title).then((record) => {
+              // 是当前页面就自增
+              let curPath = window.location.pathname;
+              if (curPath.includes('index.html')) {
+                curPath = curPath.substring(0, curPath.lastIndexOf('index.html'));
+              }
+              if (pv.getAttribute('data-path') == curPath) {
+                incrArr.push(this.buildIncrement(record.objectId));
+              }
+              if (pv) {
+                var ele = pv.querySelector('#lc-pv #number');
+                if (ele) {
+                  if (pv.getAttribute('data-path') == curPath) {
+                    ele.innerText = (record.times || 0) + 1;
+                  } else {
+                    ele.innerText = record.times || 0;
+                  }
+                  pv.style.display = 'inline';
+                }
+              }
+            });
+            getterArr.push(viewGetter);
+          }
+        }
+      }
+
+      // 如果启动计数自增，批量发起自增请求
+      if (enableIncr) {
+        Promise.all(getterArr).then(() => {
+          incrArr.length > 0 && this.increment(Counter, incrArr);
+        })
+      }
+
+    },
+
+
+    fetchData(api_server) {
+      var Counter = (method, url, data) => {
+        return fetch(`${ api_server }/1.1${ url }`, {
+          method,
+          headers: {
+            'X-LC-Id': this.app_id,
+            'X-LC-Key': this.app_key,
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(data)
+        });
+      };
+      this.addCount(Counter);
+    },
+
+    refreshCounter() {
+      var api_server = this.app_id.slice(-9) !== '-MdYXbMMI' ? this.custom_api_server : `https://${ this.app_id.slice(0, 8).toLowerCase() }.api.lncldglobal.com`;
+      if (api_server) {
+        this.fetchData(api_server);
+      } else {
+        fetch('https://app-router.leancloud.cn/2/route?appId=' + this.app_id)
+          .then(resp => resp.json())
+          .then(({api_server}) => {
+            this.fetchData('https://' + api_server);
+          });
+      }
+    }
+
+  };
+
+  LCCounter.refreshCounter();
+
+  document.addEventListener('pjax:complete', function () {
+    LCCounter.refreshCounter();
+  });
+</script>
+
+
+
+<!-- more -->
+
+
+    
+      
+
+
+<script src="https://cdn.jsdelivr.net/npm/pjax@0.2.8/pjax.min.js"></script>
+
+<!-- 样式位于：source/css/_third-party/pjaxanimate.styl -->
+
+<div class="pjax-animate">
+  
+    <script src="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.js"></script>
+    <div id="loading-bar-wrapper"><script>NProgress.configure({parent:"#loading-bar-wrapper",trickleSpeed: 100})</script></div>
+    <script>
+      window.ShowLoading = function() {
+        NProgress.start();
+      };
+      window.HideLoading = function() {
+        NProgress.done();
+      }
+    </script>
+  
+</div>
+
+<script>
+    var pjax;
+    document.addEventListener('DOMContentLoaded', function () {
+      pjax = new Pjax({
+        elements: 'a[href]:not([href^="#"]):not([href="javascript:void(0)"]):not([pjax-fancybox])',
+        selectors: [
+          "title",
+          "#pjax-container",
+          "#pjax-header-nav-list"
+        ],
+        cacheBust: false,   // url 地址追加时间戳，用以避免浏览器缓存
+        timeout: 5000
+      });
+    });
+
+    document.addEventListener('pjax:send', function (e) {
+      window.stop(); // 相当于点击了浏览器的停止按钮
+
+      try {
+        var currentUrl = window.location.pathname;
+        var targetUrl = e.triggerElement.href;
+        var banUrl = [""];
+        if (banUrl[0] != "") {
+          banUrl.forEach(item => {
+            if(currentUrl.indexOf(item) != -1 || targetUrl.indexOf(item) != -1) {
+              window.location.href = targetUrl;
+            }
+          });
+        }
+      } catch (error) {}
+
+      window.subData = null; // 移除标题（用于一二级导航栏切换处）
+      if (typeof $.fancybox != "undefined") {
+        $.fancybox.close();    // 关闭弹窗
+      }
+      $('.l_header .switcher .s-search').removeClass('active'); // 关闭移动端激活的搜索框
+      $('.l_header').removeClass('z_search-open'); // 关闭移动端激活的搜索框
+      $('.wrapper').removeClass('sub'); // 跳转页面时关闭二级导航
+
+      // 解绑事件 避免重复监听
+      $('.s-top').unbind('click');
+      $('.menu a').unbind('click');
+      $(window).unbind('resize');
+      $(window).unbind('scroll');
+      $(document).unbind('scroll');
+      $(document).unbind('click');
+      $('body').unbind('click');
+      window.ShowLoading();
+    });
+
+    document.addEventListener('pjax:complete', function () {
+      // 关于百度统计对 SPA 页面的处理：
+      // 方案一：百度统计>管理>单页应用设置中，打开开启按钮即可对SPA进行统计。 https://tongji.baidu.com/web/help/article?id=324
+      // 方案二：取消注释下列代码。 https://tongji.baidu.com/web/help/article?id=235
+      // 
+
+      // 关于谷歌统计对 SPA 页面的处理：
+      // 当应用以动态方式加载内容并更新地址栏中的网址时，也应该更新通过 gtag.js 存储的网页网址。
+      // https://developers.google.cn/analytics/devguides/collection/gtagjs/single-page-applications?hl=zh-cn
+      
+
+      $('.nav-main').find('.list-v').not('.menu-phone').removeAttr("style",""); // 移除小尾巴的移除
+      $('.menu-phone.list-v').removeAttr("style",""); // 移除小尾巴的移除
+      $('script[data-pjax], .pjax-reload script').each(function () {
+        $(this).parent().append($(this).remove());
+      });
+      try{
+          if (typeof $.fancybox == "undefined") {
+            SCload_fancybox();
+          } else {
+            pjax_fancybox();
+          }
+        
+        
+        
+        
+        
+        
+          pjax_valine();
+        
+        
+        
+        
+        
+      } catch (e) {
+        console.log(e);
+      }
+      window.HideLoading();
+    });
+
+    document.addEventListener('pjax:error', function (e) {
+      window.HideLoading();
+      window.location.href = e.triggerElement.href;
+    });
+</script>
+
+    
+  </div>
+</body>
+</html>
